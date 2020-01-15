@@ -2,7 +2,7 @@
 """
 Created on Fri Jan 10 17:01:52 2020
 
-@author: laura
+@author: carina afonso e laura duro
 """
 
 from Bio import SeqIO
