@@ -407,6 +407,7 @@ for id_al in id_alinm:
     file.writelines(record.read())
 file.close()
 
+## ficheiros obtidos a partir da ferramenta docker - imagem ClustalW
 
 ## Trees
 from Bio import Phylo
