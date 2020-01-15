@@ -1,0 +1,9 @@
+#fazer o pull da imagem clustal
+docker pull quay.io/biocontainers/clustalw:2.1--h6bb024c_4
+
+#criar o container com a pasta onde se encontra o ficheiro com as sequencias a alinhar
+docker run --rm -it -v ~/Desktop/:/clustal quay.io/biocontainers/clustalw:2.1--h6bb024c_4 bash
+
+#dentro do container - alterar a diretoria para a mesma onde está o ficheiro (/clustal)
+#correr o clustal
+clustalw
